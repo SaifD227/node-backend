@@ -6,7 +6,7 @@ import {
   getUsers,
   updateUser,
   deleteUser
-} from '../controllers/userController.js';
+} from '../controller/userController.js';
 
 router.post('/users', createUser);
 router.get('/users', getUsers);
